@@ -8,6 +8,7 @@ public class ValidationErrorDTO extends CustomErrorDTO {
 
     private List<FieldMessageDTO> errors = new ArrayList<>();
 
+    public ValidationErrorDTO() {}
 
     public ValidationErrorDTO(Instant timestamp, Integer status, String error, String path) {
         super(timestamp, status, error, path);

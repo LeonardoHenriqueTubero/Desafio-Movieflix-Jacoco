@@ -9,6 +9,8 @@ public class CustomErrorDTO {
     private String error;
     private String path;
 
+    public CustomErrorDTO() {}
+
     public CustomErrorDTO(Instant timestamp, Integer status, String error, String path) {
         this.timestamp = timestamp;
         this.status = status;
